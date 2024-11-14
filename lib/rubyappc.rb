@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "rubyappc/version"
-# require_relative "rubyappc/rubyappc"
+require_relative "../ext/rubyappc/rubyappc"
 
 module Rubyappc
   class Error < StandardError; end
@@ -10,6 +10,7 @@ module Rubyappc
   class Mainclass
     def main
       puts "Hello from rubyappc"
+      puts Rubyappc.hello_world
     end
   end
 end
