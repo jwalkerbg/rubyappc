@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "rubyappc/version"
-require_relative "../ext/rubyappc/rubyappc"
+require_relative "rubyappc/rubyappc"
 
 module Rubyappc
   class Error < StandardError; end
