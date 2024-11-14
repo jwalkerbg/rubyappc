@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "rubyappc"
+
+ct = Rubyappc::Mainclass.new
+ct.main
