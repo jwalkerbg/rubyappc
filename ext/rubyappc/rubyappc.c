@@ -3,7 +3,7 @@
 VALUE rb_mRubyappc;
 
 VALUE hello_world(VALUE self) {
-    return rb_str_new_cstr("Hello, world from C!");
+    return rb_str_new_cstr("Hello Ruby world from C world!");
 }
 
 RUBY_FUNC_EXPORTED void
