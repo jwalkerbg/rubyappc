@@ -11,6 +11,7 @@ module Rubyappc
     def main
       puts "Hello from rubyappc"
       puts Rubyappc.hello_world
+      puts Rubyappc.fibonacci(5)
     end
   end
 end
