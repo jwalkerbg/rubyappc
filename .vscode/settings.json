@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "rubyappc.h": "c"
+    },
+    "[ruby]": {
+        "editor.formatOnSave": false
     }
 }
